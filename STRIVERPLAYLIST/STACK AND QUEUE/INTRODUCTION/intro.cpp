@@ -1,0 +1,1 @@
+// this is first video of the stack and queue series and in this file we'll code implementation of stack and queue with help arrays and linkedlist and then we'll implement stack with queue and vice-verca

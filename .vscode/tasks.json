@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile and run",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "${file}",
+        "-o",
+        "${fileBasenameNoExtension}",
+        "&&",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "<",
+        "${fileDirname}\\input.txt",
+        ">",
+        "${fileDirname}\\output.txt"
+      ],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
