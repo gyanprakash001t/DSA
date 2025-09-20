@@ -3,6 +3,7 @@
         "iostream": "cpp",
         "new": "cpp",
         "array": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "ratio": "cpp"
     }
 }
